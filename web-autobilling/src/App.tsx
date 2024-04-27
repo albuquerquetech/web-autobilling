@@ -1,15 +1,21 @@
-import './App.css';
+import "./App.css";
+import LoginDeUsuarios from "./pages/loginDeUsuarios/loginDeUsuarios";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-        <h1>Tela de Login de Usuários</h1>
+    return (
+        <>
+            <div className="container">
+                <div className="App">
+                    
+                    <div className="div-login" >
+                      <LoginDeUsuarios />
+                    </div>
 
-      </header>
-    </div>
-  );
+                </div>
+            </div>
+        </>
+    );
 }
 
 export default App;
