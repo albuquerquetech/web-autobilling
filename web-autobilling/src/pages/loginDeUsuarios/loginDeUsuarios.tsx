@@ -1,28 +1,34 @@
+import styles from './loginDeUsuarios.module.css';
+
 const LoginDeUsuarios = () => {
     return (
-        <div>
-            <div className="header">
-                <h1>Login Autobilling</h1>
-            </div>
+        <div className={styles.divContainer}>            
 
-            <form>
-                <div className="container">
+            <form >
+                
+                <div className={styles.containerGlob}>
 
-                    <div className="inputContainer">
+                    <div className={styles.divHeader}>
+                        <h1 className={styles.h1ittle}>Login Autobilling</h1>
+                    </div>
+
+                    <div className={styles.inputContainer}>
                         <label htmlFor="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="exemploEmail@exemplo.com"/>
+                        <input className={styles.divInput} type="email" id="email" name="email" placeholder="exemploEmail@exemplo.com"/>
                     </div>
                     
-                    <div className="inputContainer">
+                    <div className={styles.inputContainer}>
                         <label htmlFor="password">Senha:</label>
-                        <input type="password" id="password" name="password"/>
+                        <input className={styles.divInput} type="password" id="password" name="password" placeholder='Digite sua senha!'/>
                     </div>
 
-                    <button type="submit">Entrar</button>
+                    <div className={styles.inputContainer}>
+                    <button className={styles.divButton} type="submit">Entrar</button>
+                    </div>                    
 
-                    <p><a href="/cadastro">Cadastrar-se</a></p>
+                    <p className={styles.pCadastrese}><a href="/cadastro">Cadastrar-se</a></p>
 
-                    <p><a href="/esqueceu-senha">Esqueceu a senha?</a>
+                    <p className={styles.pEsqueceuSenha}><a href="/esqueceu-senha">Esqueceu a senha?</a>
                     </p>
                 </div>                
             </form>
