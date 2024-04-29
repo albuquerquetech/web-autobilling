@@ -2,11 +2,12 @@
   text-align: center;
 }
 
-.container {
+.containerApp {
   /* gradient com degradê */
   background: rgb(73, 73, 75);
   background: linear-gradient(45deg, rgb(44, 2, 78) 0%, rgb(84, 43, 150) 35%, rgb(150, 59, 202) 61%, rgba(0,212,255,1) 100%);
 
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;

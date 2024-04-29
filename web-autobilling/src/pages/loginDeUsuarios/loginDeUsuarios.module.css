@@ -1,15 +1,5 @@
 .divContainer{
-    background: rgb(248, 248, 248);
-    /* background: linear-gradient(45deg, rgb(24, 24, 26) 0%, rgb(37, 37, 49) 35%, rgba(113,5,175,1) 61%, rgba(0,212,255,1) 100%); */
-    min-height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    /* font-size: calc(10px + 2vmin); */
-    color: white;
-
-    border-radius: 10px;
+    margin-top: 1em;
 }
 
 .containerGlob{
@@ -43,7 +33,7 @@
 }
 .h1ittle{
     /* Efeito degradê nas letras */
-    background: -webkit-linear-gradient(180deg, #030d3d, #312b27, #751b91, #030d3d);
+    background: -webkit-linear-gradient(180deg, #030d3d, #1151ff, #bc2ae9, #8a4bff, #030d3d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.5em;
@@ -51,22 +41,7 @@
 }
 
 .divButton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 20px 20px 20px;
-    background-color: #9b37dd;
-    width: 110%;
-    height: 40px;
-    color: white;
-    font-size: 0.5em;
-    border-radius: 5px;
-    cursor: pointer;
-    /* retirar sobras do botão */
-    box-shadow: 0 0 0 0;
-    border: 0;
-    margin-top: 2em;
-    margin-left: 9px;
+    margin-top: 1em;
 }
 .pCadastrese a{
     color: #3a3c49;
